@@ -1,0 +1,153 @@
+  {
+    "type": "root",
+    "children": [
+        {
+        "type": "bet",
+        "player": 1,
+        "value": 2,
+        "children": [
+        {
+          "type":"draw5",
+          "value": 2,
+          "player": 1,
+          "children": [
+          {
+            "type": "decNode",
+            "player": 0,
+            "children": [
+          {
+            "type":"draw1",
+            "player": 0,
+            "children": [
+              {
+                "type": "check",
+                "player": 1,
+                "children": [
+                 {
+              	"type": "bet",
+              	"player": 0,
+              	"value": 5,
+              	"children":[
+              	{
+              		"type": "call",
+              		"player": 1,
+              		"value": 5
+              	}
+              	]
+              }
+                ]
+              }, 
+              {
+              	"type": "bet",
+              	"player": 1,
+              	"value": 5,
+              	"children":[
+              	{
+              		"type": "call",
+              		"player": 0,
+              		"value": 5
+              	}
+              	]
+              }
+            ]
+          },
+          {
+           "type":"stand",
+           "player": 0,
+           "children": [
+              {
+                "type": "check",
+                "player": 1,
+                "children": [
+                 {
+              	"type": "bet",
+              	"player": 0,
+              	"value": 5,
+              	"children":[
+              	{
+              		"type": "call",
+              		"player": 1,
+              		"value": 5
+              	}
+              	]
+              }
+
+                ]
+              },
+              {
+              
+              	"type": "bet",
+              	"player": 1,
+              	"value": 5,
+              	"children":[
+              	{
+              		"type": "call",
+              		"player": 0,
+              		"value": 5
+              	}
+              	]
+             
+
+              }
+            ]
+          }
+
+          ]
+          }
+
+          ]
+
+        },
+        {
+          "type":"call",
+          "value": 2,
+          "player": 1,
+          "children": [
+         {
+            "type": "decNode",
+            "player": 0,
+            "children": [
+          {
+            "type":"draw1",
+            "player": 0,
+            "children": [
+              {
+                "type": "check",
+                "player": 1
+              }
+            ]
+          },
+          {
+           "type":"call",
+           "player": 0,
+           "children": [
+              {
+                "type": "check",
+                "player": 1
+              }
+            ]
+          }
+
+          ]
+          }
+          
+
+
+          ]
+        },
+
+        {
+        "type": "fold",
+        "player": 0
+        }
+
+        ]
+      },
+      {
+        "type": "fold",
+        "player": 1
+
+      }
+
+    ]
+  }

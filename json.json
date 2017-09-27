@@ -1,0 +1,118 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "check",
+      "children": [
+        {
+          "type": "check"
+        },
+        {
+          "type": "bet",
+          "value": 1,
+          "children": [
+            {
+              "type": "fold"
+            },
+            {
+              "type": "call"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bet",
+      "value": 1,
+      "children": [
+        {
+          "type": "fold"
+        },
+        {
+          "type": "call"
+        }
+      ]
+    },
+    {
+      "type": "draw1",
+      "children": [
+         {
+          "type": "check",
+          "children": [
+          {
+            "type": "check"
+          }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "draw2",
+      "children": [
+         {
+          "type": "check"
+        },
+        {
+      "type": "bet",
+      "value": 1,
+      "children": [
+        {
+          "type": "fold"
+        },
+        {
+          "type": "call"
+        }
+      ]
+    }
+      ]
+    },
+    {
+      "type": "draw3",
+      "children": [
+         {
+          "type": "check"
+        },
+        {
+      "type": "bet",
+      "value": 1,
+      "children": [
+        {
+          "type": "fold"
+        },
+        {
+          "type": "call"
+        }
+      ]
+    }
+      ]
+    },
+    {
+      "type": "draw4",
+      "children": [
+         {
+          "type": "check"
+        }
+      ]
+    },
+    {
+      "type": "draw5",
+      "children": [
+         {
+          "type": "check"
+        },
+        {
+      "type": "bet",
+      "value": 1,
+      "children": [
+        {
+          "type": "fold"
+        },
+        {
+          "type": "call"
+        }
+      ]
+    }
+      ]
+    }
+  ]
+}
